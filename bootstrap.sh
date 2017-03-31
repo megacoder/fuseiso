@@ -1,7 +1,7 @@
 #!/bin/sh
 (
-	autoreconf -fvim
-	./configure
+	autoreconf -fvi
+	./configure --prefix=/usr
 	make dist
 	rm -rf RPM
 	mkdir -p RPM/{SOURCES,RPMS,SRPMS,BUILD,SPECS}
