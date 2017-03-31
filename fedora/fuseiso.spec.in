@@ -6,6 +6,7 @@ License:	MIT
 Group:		File tools
 Url:		git@github.com:megacoder/fuseiso.git
 
+BuildRequires	python2-markdown
 # BuildRequires:	pkgconfig(fuse)
 # BuildRequires:	pkgconfig(glib-2.0)
 # BuildRequires:	pkgconfig(zlib)
