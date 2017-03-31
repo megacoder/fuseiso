@@ -1,0 +1,4 @@
+[submodule "fuseiso"]
+	path = fuseiso
+	url = git@github.com:OpenMandrivaAssociation/fuseiso.git
+	branch = master
