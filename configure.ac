@@ -12,7 +12,9 @@ AC_INIT([fuseiso], [0.0.0], [oldest.software.guy@gmail.com])
 
 # Checks for library functions.
 
-AC_CONFIG_SUBDIRS([fuseiso-code])
+AC_CONFIG_SUBDIRS([
+	fedora
+])
 AC_CONFIG_FILES([
 	Makefile
 	fedora/fuseiso.spec
